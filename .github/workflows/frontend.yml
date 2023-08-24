@@ -1,5 +1,17 @@
 name: Frontend
 
+on:
+  push:
+    branches:
+      - "feature/**"
+      - develop
+      - staging
+      - main
+    paths:
+      - frontend/**
+      - shared/**
+      - .github/workflows/frontend.yml
+
 env:
   SRC: 'frontend'
 

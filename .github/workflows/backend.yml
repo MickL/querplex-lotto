@@ -1,5 +1,17 @@
 name: Backend
 
+on:
+  push:
+    branches:
+      - "feature/**"
+      - develop
+      - staging
+      - main
+    paths:
+      - backend/**
+      - shared/**
+      - .github/workflows/backend.yml
+
 env:
   SRC: 'backend'
 
