@@ -1,0 +1,12 @@
+.back {
+  margin-top: 15px; // TODO: Use variable instead!
+  margin-bottom: 15px; // TODO: Use variable instead!
+}
+
+.block {
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

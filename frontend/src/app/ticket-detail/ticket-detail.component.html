@@ -1,0 +1,9 @@
+<div class="container">
+  <a routerLink="/" class="back small btn btn-secondary btn-sm">Back</a>
+
+  <h1>My ticket</h1>
+
+  <div class="block" *ngFor="let block of ticket.blocks">
+    <app-ticket [numbers]="block"></app-ticket>
+  </div>
+</div>

@@ -22,6 +22,7 @@ Enthalten:
 - Body-Validierung
 - Zufällige Nummern generieren
 - MongoDB
+- Unit tests für das Generieren der zufälligen Nummern
 
 Was mir wichtiges fehlt:
 - Environment variablen
